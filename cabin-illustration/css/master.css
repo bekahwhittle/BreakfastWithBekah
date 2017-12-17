@@ -1,5 +1,37 @@
+* {
+  background-color: #fafafa;
+}
 .cabin-illustration-container {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+  background-color: #fff;
+  height: 780px;
+  width: 780px;
+  margin: auto;
+}
+.tilted-illustration-square {
+  background-color: #c0dcf4;
+  height: 520px;
+  width: 520px;
+  margin: auto;
+  transform: rotate(45deg);
+  position: relative;
+  top: 130px;
+}
+.illustration-moon {
+  height: 65px;
+  width: 65px;
+  background-color: #ecf4fc;
+  border-radius: 50%;
+  position: relative;
+  top: 95px;
+  left: 45px;
+}
+.cloud-top-right {
+  height: 35px;
+  width: 185px;
+  background-color: #ecf4fc;
+
+  position: relative;
+  left: 60px;
+
+  transform: rotate(129deg);
 }
