@@ -1,0 +1,25 @@
+{
+  "name": "paper",
+  "version": "1.0.0",
+  "description": "learning paper",
+  "main": "index.js",
+  "scripts": {
+    "test": "paper run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teambekbek/BreakfastWithBekah.git"
+  },
+  "keywords": [
+    "paper",
+    "learning",
+    "taylor",
+    "swift"
+  ],
+  "author": "bekah",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/teambekbek/BreakfastWithBekah/issues"
+  },
+  "homepage": "https://github.com/teambekbek/BreakfastWithBekah#readme"
+}
