@@ -15,6 +15,8 @@ var circlePath = new Path.Circle({
 	fillColor: 'blue'
 });
 
+var destination = Point.random() * view.size;
+
 function onResize(event) {
 	path.position = view.center;
 }
@@ -23,7 +25,7 @@ function onResize(event) {
 var rectanglePath = new Path.Rectangle({
 	point: [110, 40],
 	size: [75, 75],
-	strokeColor: 'white'
+	strokeColor: 'black'
 });
 
 function onFrame (event) {
@@ -33,4 +35,12 @@ function onFrame (event) {
 	// transition colours based on hue
 	circlePath.fillColor.hue += 1;
 
+	// move item across canvas
+	var vector = destination - rectanglePath.position;
+	rectanglePath.position += vector / 30;
+	rectanglePath.content = Math.round(vector.length);
+
+	if (vector.length < 5) {
+		destination = Point.random() * view.size;
+	}
 }
