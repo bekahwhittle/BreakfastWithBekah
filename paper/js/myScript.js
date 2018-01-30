@@ -36,11 +36,11 @@ function onFrame (event) {
 	circlePath.fillColor.hue += 1;
 
 	// move item across canvas
-	var vector = destination - rectanglePath.position;
-	rectanglePath.position += vector / 30;
-	rectanglePath.content = Math.round(vector.length);
+	var vector = destination - circlePath.position;
+	circlePath.position += vector / 60;
+	circlePath.content = Math.round(vector.length);
 
-	if (vector.length < 5) {
+	if (vector.length < 2) {
 		destination = Point.random() * view.size;
 	}
 }
