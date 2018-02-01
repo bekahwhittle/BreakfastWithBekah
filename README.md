@@ -1,7 +1,6 @@
 # BreakfastWithBekah
 
-> breakfast is a time to drink coffee, listen to taylor swift and contemplate the day ahead
+> breakfast is a time to drink coffee, listen to taylor swift and learn something new
 
-Also Docker is cool and here are some sources i'm using to learn more about it:
-
-https://jonnylangefeld.github.io/learning/Docker/How%2Bto%2BDocker.html
+Everyone plays - it's an integral part of our species.
+This is my playground and I get to learn and mess with new technologies and expand my understanding of the web!
