@@ -38,12 +38,25 @@ body {
           width: auto;
           padding-right: 10px;
           padding-left: 10px;
-          font-family: 'Open Sans', sans-serif;
+          font-family: "Open Sans", sans-serif;
           font-size: 12px;
-          color: #616161;
+          color: #7a7a7a;
           transition: color 0.5s ease; }
           .main-view-container .text-card-container .nav-card-container .header-card li:hover {
             color: #000;
             cursor: pointer; }
+    .main-view-container .text-card-container .text-box-main {
+      padding-left: 40px;
+      margin-top: 100px; }
+      .main-view-container .text-card-container .text-box-main h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 40px;
+        text-align: left; }
+      .main-view-container .text-card-container .text-box-main p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        width: 400px; }
 
 /*# sourceMappingURL=main.css.map */
