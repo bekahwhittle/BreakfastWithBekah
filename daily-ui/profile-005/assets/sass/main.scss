@@ -2,6 +2,77 @@
 
 
 
-* {
+body {
     background-color: $primary-pink;
+
+}
+
+.main-view-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 1150px;
+    height: 725px;
+    border-radius: 5px;
+
+    background-color: $primary-white;
+    box-shadow: $primary-box-shadow;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+    .image-card-container {
+        height: 100%;
+        width: 50%;
+
+        flex: 1;
+
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        background-image: url('/assets/images/taylor-swift.png');
+    }
+
+    .text-card-container {
+        height: 100%;
+        width: 50%;
+
+        flex: 1;
+
+        .nav-card-container {
+            width: 450px;
+            padding-left: 25px;
+
+            .header-card {
+                display: flex;
+                flex-direction: row;
+
+                padding-left: 0px;
+
+                list-style: none;
+
+                li {
+                    width: auto;
+                    padding-right: 10px;
+                    padding-left: 10px;
+
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: $nav-font-size;
+                    color: #616161;
+                    transition: color 0.5s ease;
+
+                    &:hover {
+                        color: #000;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+    }
 }
