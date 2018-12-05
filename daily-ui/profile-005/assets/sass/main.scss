@@ -1,0 +1,123 @@
+@import "_variables.scss";
+
+
+
+body {
+    background-color: $primary-pink;
+
+}
+
+.main-view-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 1150px;
+    height: 725px;
+    border-radius: 5px;
+
+    background-color: $primary-white;
+    box-shadow: $primary-box-shadow;
+
+    // position: absolute;
+    margin: auto;
+    margin-top: 50px;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+
+
+    .image-card-container {
+        height: 100%;
+        width: 50%;
+
+        flex: 1;
+
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        background-image: url('/assets/images/taylor-swift.png');
+    }
+
+    .text-card-container {
+        height: 100%;
+        width: 50%;
+
+        flex: 1;
+
+        .nav-card-container {
+            width: 450px;
+            padding-left: 25px;
+            margin-top: 25px;
+
+            .header-card {
+                display: flex;
+                flex-direction: row;
+
+                padding-left: 0px;
+
+                list-style: none;
+
+                li {
+                    width: auto;
+                    padding-right: 10px;
+                    padding-left: 10px;
+
+                    font-family: $primary-font-family;
+                    font-size: $nav-font-size;
+                    color: $primary-grey;
+                    transition: color 0.5s ease;
+
+                    &:hover {
+                        color: #000;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .text-box-main {
+            padding-left: 50px;
+            margin-top: 50px;
+
+            h2 {
+                font-family: $primary-font-family;
+                font-size: 30px;
+
+                text-align: left;
+
+                margin-bottom: 0;
+            }
+
+            p {
+                width: 400px;
+
+                font-family: $primary-font-family;
+                font-size: 12px;
+                font-weight: 300;
+
+                text-align: left;
+                letter-spacing: 0.2px;
+                line-height: 1.8;
+            }
+
+        }
+
+        .album-card-container {
+            width: 450px;
+            height: 350px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            margin-left: 25px;
+            margin-top: 75px;
+
+            .album-card {
+                width: 33.3%;
+            }
+        }
+
+    }
+}
